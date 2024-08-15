@@ -1,8 +1,47 @@
 body{
-    background-color: black;
+    background-color: #E3DCCC;
     
 }
-#Box1{
-    font-family: "Playwrite DE Grund";
-    color: white;
+#middle{
+    position: relative;
+    left: 47%;
+    font-family: "Familjen Grotesk";
+    color: #4B4859;
+    font-size: 30px;
+}
+#left{
+    position: absolute;
+    top: 0;
+    left: 175px;
+}
+#right{
+    position: absolute;
+    top: 0;
+    left: -145px;
+}
+#burguer{
+    position: relative;
+    left: 100px;
+    top: 175px;
+    font-family: "Familjen Grotesk";
+    color: #4B4859;
+    font-size: 75px;
+}
+#bun1{
+    position:absolute;
+    left: 50px;
+}
+#meat{
+    position: absolute;
+    top: 75px;
+    left: 100px;
+}
+#bun2{
+    position: absolute;
+    top: 150px;
+}
+#face{
+    position:fixed;
+    left: 67%;
+    top: 37%;
 }
