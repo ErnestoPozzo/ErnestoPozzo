@@ -2,6 +2,9 @@ body{
     background-color: #E3DCCC;
     
 }
+a{
+    text-decoration: none;
+}
 #middle{
     position: relative;
     left: 47%;
@@ -9,12 +12,12 @@ body{
     color: #4B4859;
     font-size: 30px;
 }
-#left{
+#right{
     position: absolute;
     top: 0;
-    left: 175px;
+    left: 125px;
 }
-#right{
+#left{
     position: absolute;
     top: 0;
     left: -145px;
@@ -22,7 +25,7 @@ body{
 #burguer{
     position: relative;
     left: 100px;
-    top: 175px;
+    top: 145px;
     font-family: "Familjen Grotesk";
     color: #4B4859;
     font-size: 75px;
@@ -35,6 +38,7 @@ body{
     position: absolute;
     top: 75px;
     left: 100px;
+    font-weight: bold;
 }
 #bun2{
     position: absolute;
