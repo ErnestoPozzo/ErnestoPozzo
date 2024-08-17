@@ -5,6 +5,8 @@ body{
 a{
     text-decoration: none;
 }
+
+/*TOP PAGE */
 #middle{
     position: relative;
     left: 47%;
@@ -22,6 +24,9 @@ a{
     top: 0;
     left: -145px;
 }
+/*TOP PAGE*/
+
+/*GREET-PC*/
 #burguer{
     position: relative;
     left: 100px;
@@ -49,3 +54,58 @@ a{
     left: 67%;
     top: 37%;
 }
+/*GREET-PC*/
+
+/*GREET-PHONE*/
+#burguerTwo{
+    position: relative;
+    left: 2rem;
+    top: 30rem;
+    font-family: "Familjen Grotesk";
+    color: #4B4859;
+    font-size: 3rem;
+    visibility: collapse;
+}
+/*GREET-PHONE*/
+
+/*PHONE SCREEN ADJUSTMENT*/
+@media only screen and (max-width: 26.875rem){
+    body {
+        width: 26.875rem;
+        overflow-x: hidden;
+        width: 100%;
+        overflow-y: hidden;
+        width: 100%;
+    }
+    /*greet*/
+    #burguer{
+        visibility: collapse;
+
+    }
+    #burguerTwo{
+        visibility: visible;
+    }
+    #bun1Two{
+        position: absolute;
+
+    }
+    #meatTwo{
+        position: absolute;
+        top:4rem;
+        left:1.5rem;
+        font-weight: bold;
+    }
+    #bun2Two{
+        position: absolute;
+        top:8rem;
+        left: 1rem;
+    }    
+    /*greet*/
+    #face{
+        position:fixed;
+        left:4rem;
+        top: 15rem;
+    }
+}
+/*PHONE SCREEN ADJUSTMENT*/
+
