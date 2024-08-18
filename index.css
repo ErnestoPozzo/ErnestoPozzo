@@ -36,7 +36,6 @@ a{
 .container{
     display: flex;
 	justify-content: center;
-    border: solid;
     justify-content: center;
 	align-content: center;
 }
@@ -47,14 +46,12 @@ a{
     position: relative;
     text-align: center;
     font-size: var(--step-1);
-    border: solid;
 }
 
 #face{
    
     width: 100%;
     height: auto;
-    border: solid;
 }
 /*GREET-PC*/
 
