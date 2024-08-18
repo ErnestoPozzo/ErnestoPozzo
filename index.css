@@ -1,8 +1,20 @@
+:root {
+    --step--2: clamp(0.5rem, 0.9489rem + -0.5792vw, 0.8403rem);
+    --step--1: clamp(1rem, 1.011rem + -0.0142vw, 1.0083rem);
+    --step-0: clamp(1.21rem, 0.9579rem + 1.3447vw, 2rem);
+    --step-1: clamp(1rem, 0.6388rem + 4.337vw, 4rem);
+    --step-2: clamp(1.7424rem, -0.2547rem + 10.6512vw, 8rem);
+    --step-3: clamp(2.0909rem, -2.3482rem + 23.6751vw, 16rem);
+    --step-4: clamp(2.5091rem, -6.9029rem + 50.1974vw, 32rem);
+    --step-5: clamp(3.0109rem, -16.4537rem + 103.8113vw, 64rem);
+}
+
 body{
     background-color: #E3DCCC;
     margin: 0;
     height: 100%;
     overflow: hidden;
+    
 }
 a{
     text-decoration: none;
@@ -15,74 +27,38 @@ a{
     font-family: "Familjen Grotesk";
     text-align: center;
     font-size:2rem;
+    font-size: var(--step-0);
 }
 
 /*TOP PAGE*/
 
 /*GREET-PC*/
 .container{
-    width: auto;
-    height: auto;
-    font-family: "Familjen Grotesk";
-    color: #4B4859;
-    
+    display: flex;
+	justify-content: center;
+    border: solid;
+    justify-content: center;
+	align-content: center;
 }
 .greet{ 
+    font-family: "Familjen Grotesk";
+    color: #4B4859;
     font-weight: lighter;
     position: relative;
-    font-size: 5rem;
-    width: max(2vh,50rem);
     text-align: center;
-    top: 5rem;
-    left: 0%;
+    font-size: var(--step-1);
+    border: solid;
 }
 
 #face{
-    position:fixed;
-    left: 67%;
-    top: 32%;
-    width: 25%;
+   
+    width: 100%;
     height: auto;
+    border: solid;
 }
 /*GREET-PC*/
 
-/*GREET-PHONE*/
-#burguerTwo{
-    position: relative;
-    left: 2rem;
-    top: 30rem;
-    font-family: "Familjen Grotesk";
-    color: #4B4859;
-    font-size: 3rem;
-    visibility: collapse;
-}
-/*GREET-PHONE*/
 
-/*PHONE SCREEN ADJUSTMENT*/
-@media only screen and (max-width: 26.875rem){
-    body {
-        width: 26.875rem;
-        overflow-x: hidden;
-        width: 100%;
-        overflow-y: hidden;
-        width: 100%;
-        border: solid,#4B4859;
-        height: 100%;
-    }
-    .head{
-        font-size: 1.5rem;
-    }
-    /*greet*/
-       
-    /*greet*/
-    #face{
-        position:fixed;
-        left:6rem;
-        top: 11rem;
-        width: 50%;
-        height: auto;
-        
-    }
-}
-/*PHONE SCREEN ADJUSTMENT*/
+
+
 
