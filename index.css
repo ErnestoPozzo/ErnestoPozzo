@@ -32,13 +32,12 @@ a{
 
 /*TOP PAGE*/
 
-/*GREET-PC*/
+/*GREET*/
 .container{
     display: flex;
-	justify-content: center;
-    border: solid;
     justify-content: center;
-	align-content: center;
+    justify-content: center;
+   align-content: center;
 }
 .greet{ 
     font-family: "Familjen Grotesk";
@@ -47,16 +46,13 @@ a{
     position: relative;
     text-align: center;
     font-size: var(--step-1);
-    border: solid;
 }
 
 #face{
-   
     width: 100%;
     height: auto;
-    border: solid;
 }
-/*GREET-PC*/
+/*GREET*/
 
 
 
