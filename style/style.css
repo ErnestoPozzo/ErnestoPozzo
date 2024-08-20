@@ -33,12 +33,7 @@ a{
 /*TOP PAGE*/
 
 /*GREET-PC*/
-.container{
-    display: flex;
-	justify-content: center;
-    justify-content: center;
-	align-content: center;
-}
+
 .greet{ 
     font-family: "Familjen Grotesk";
     color: #4B4859;
