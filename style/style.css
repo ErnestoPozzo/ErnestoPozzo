@@ -32,18 +32,8 @@ a{
 
 /*TOP PAGE*/
 
-<<<<<<< HEAD:style/style.css
 /*GREET-PC*/
 
-=======
-/*GREET*/
-.container{
-    display: flex;
-    justify-content: center;
-    justify-content: center;
-   align-content: center;
-}
->>>>>>> main:index.css
 .greet{ 
     font-family: "Familjen Grotesk";
     color: #4B4859;
@@ -54,11 +44,11 @@ a{
 }
 
 #face{
+   
     width: 100%;
     height: auto;
 }
-/*GREET*/
-
+/*GREET-PC*/
 
 
 
