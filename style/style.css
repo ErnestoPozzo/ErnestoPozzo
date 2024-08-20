@@ -20,8 +20,8 @@ a{
     text-decoration: none;
 }
 .container{
-    margin-left:5rem;
-    margin-right:5rem;
+    margin-left:minmax(0.5rem,5rem);
+    margin-right:minmax(0.5rem,5rem);
 }
 
 /*TOP PAGE */
