@@ -16,41 +16,36 @@ body{
     overflow: hidden;
     
 }
-a{
-    text-decoration: none;
-}
-.container{
-    margin-left:minmax(0.5rem,5rem);
-    margin-right:minmax(0.5rem,5rem);
-}
 
-/*TOP PAGE */
-.head{
-    color: #4B4859;
-    padding: 3rem;
-    font-family: "Familjen Grotesk";
-    text-align: center;
-    font-size: var(--step-0);
-}
-
-/*TOP PAGE*/
-
-/*GREET-PC*/
+#face{
+    max-width: 20%;
+    height: auto;
+} 
 
 .greet{ 
     font-family: "Familjen Grotesk";
     color: #4B4859;
     font-weight: lighter;
     text-align: center;
-    font-size: var(--step-1);
+    font-size: var(--step-0);
+}
+.buttons{
+    background-color: #E3DCCC;
+    color: #4B4859;
+    font-size: var(--step-0);
+    font-weight: normal;
+    padding: 0.625 1.25;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    font-family: 'Trebuchet MS';
+    transition: background-color 0.25s;
 }
 
-#face{
-    width: 100%;
-    height: auto;
+.buttons:hover{
+    background-color: rgb(130, 169, 180);
 }
-/*GREET-PC*/
 
 
 
-
+             
