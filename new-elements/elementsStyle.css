@@ -1,75 +1,79 @@
-body{
-    background-color: #E3DCCC;
-}
-.box{
-    background-color: #D6C8B2;
-    padding: 0.5rem;
-    border: solid;
-    border-color: #D6C8B2;
-    color: #4B4859;
-    border-radius: 1rem;
-}
-.text{
-    vertical-align: middle;
-    font-size: 1rem;
-    font-family: Helvetica;
-}
-.fa-html5{
-    transform: scale(3.5,3.5);
-}
-.fa-css3-alt{
-    transform: scale(3.5,3.5);
-}
-.fa-js{
-    transform: scale(3.5,3.5);
-}
-#elementOne{
-    width:  24rem;
-    height: 6rem;
-}
-#elementTwo{
-    width:  9.5rem;
-    height: 0.9rem;
-    font-weight: bold;
-}
-#elementThree{
-    width:  7.8rem;
-    height: 5.5rem;
-}
-#elementFour{
-    width:  24rem;
-    height: 6rem;
-}
-#text1{
-    font-size: 3rem;
-}
-#text3{
-    text-align: center;
-    
-}
-#text4{
-    text-align: center;
-    
-}
-#iconHtml{
-    margin-top: 11%;
-    margin-left: 10%;
-}
-#iconCss{
-    margin: 8%;
-}
-#iconJs{
-    margin: 5%;
-}
-#iconKotlin{
-    transform: scale(0.5,0.5);
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-
-
-
-
-
-
-
-
+body {
+  background-color: #e3dccc;
+}
+.container {
+  width: 80%;
+  height: 700px;
+  margin: 0 auto; /*top and bottom are 0| left and right are auto by browser*/
+}
+.box {
+  background-color: #d6c8b2;
+  padding: 0.5rem;
+  border: solid;
+  border-color: #d6c8b2;
+  color: #4b4859;
+  border-radius: 1rem;
+}
+.text {
+  vertical-align: middle;
+  font-size: 1rem;
+  font-family: Helvetica;
+}
+.fa-html5 {
+  transform: scale(3.5, 3.5);
+}
+.fa-css3-alt {
+  transform: scale(3.5, 3.5);
+}
+.fa-js {
+  transform: scale(3.5, 3.5);
+}
+#elementOne {
+  width: 24rem;
+  height: 8rem;
+}
+#elementTwo {
+  width: 11rem;
+  height: 2.4rem;
+  font-weight: bold;
+}
+#elementThree {
+  width: 7.8rem;
+  height: 8rem;
+}
+#elementFour {
+  width: 24rem;
+  height: 6rem;
+}
+#text1 {
+  font-size: 3rem;
+}
+#text3 {
+  text-align: center;
+}
+#text3:hover {
+  background-color: #e3dccc;
+  border-color: #e3dccc;
+  border-radius: 1rem;
+}
+#iconHtml {
+  margin-top: 11%;
+  margin-left: 10%;
+}
+#iconCss {
+  margin: 8%;
+}
+#iconJs {
+  margin: 5%;
+}
+#iconKotlin {
+  transform: scale(0.5, 0.5);
+}
