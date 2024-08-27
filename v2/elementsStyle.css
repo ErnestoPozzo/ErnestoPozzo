@@ -9,71 +9,69 @@
 body {
   background-color: #e3dccc;
 }
-.container {
-  width: 80%;
-  height: 700px;
+.container{
+  width: 70rem;
+  height: 20rem;
   margin: 0 auto; /*top and bottom are 0| left and right are auto by browser*/
+  /* border: solid black; */
 }
 .box {
   background-color: #d6c8b2;
   padding: 0.5rem;
-  border: solid;
-  border-color: #d6c8b2;
   color: #4b4859;
   border-radius: 1rem;
 }
 .text {
   vertical-align: middle;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-family: Helvetica;
 }
 .fa-html5 {
-  transform: scale(3.5, 3.5);
+  transform: scale(7, 7);
 }
 .fa-css3-alt {
-  transform: scale(3.5, 3.5);
+  transform: scale(7, 7);
 }
 .fa-js {
-  transform: scale(3.5, 3.5);
+  transform: scale(7, 7);
+}
+.fa-python{
+  transform: scale(7, 7);
 }
 #elementOne {
-  width: 24rem;
-  height: 8rem;
+  width: 40rem;
+  height: 11rem;
 }
 #elementTwo {
-  width: 11rem;
-  height: 2.4rem;
+  width: 15rem;
+  height: 2.6rem;
   font-weight: bold;
 }
 #elementThree {
-  width: 7.8rem;
-  height: 8rem;
+  width: 12rem;
+  height: 11rem;
 }
 #elementFour {
-  width: 24rem;
-  height: 6rem;
+  width: 40rem;
+  height: 11rem;
 }
 #text1 {
-  font-size: 3rem;
+  font-size: 5rem;
 }
 #text3 {
   text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 #text3:hover {
   background-color: #e3dccc;
-  border-color: #e3dccc;
+  border: 0.2rem solid #c2a77c;
+  color: black;
   border-radius: 1rem;
+  cursor: pointer;
+  font-size: 1.8rem;
 }
-#iconHtml {
-  margin-top: 11%;
-  margin-left: 10%;
-}
-#iconCss {
-  margin: 8%;
-}
-#iconJs {
-  margin: 5%;
-}
-#iconKotlin {
-  transform: scale(0.5, 0.5);
+#face{
+  max-width: 15rem;
+  height: auto;
 }

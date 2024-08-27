@@ -2,65 +2,44 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script
       src="https://kit.fontawesome.com/d374299ea7.js"
       crossorigin="anonymous"
     ></script>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&family=Playwrite+DE+Grund:wght@100..400&family=Press+Start+2P&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style/style.css" />
-    <link rel="stylesheet" href="style/layout.css" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <title>ERNESTO POZZO</title>
+    <title>Ernesto Pozzo</title>
+    <link rel="stylesheet" href="v2/displayElements.css" />
+    <link rel="stylesheet" href="v2/elementsStyle.css" />
+    <link rel="stylesheet" href="v2/elementsLayout.css" />
   </head>
   <body>
-    <main>
-      <div class="container">
-        <div id="marginTop">
-          <img src="foto/MY FACE.png" alt="A picture of my face" id="face" />
+    <div class="bigBox">
+      <div class="container" id="containerOne">
+        <div id="elementOne" class="box">
+          <div id="text1" class="text">Hello!</div>
+          <div id="text2" class="text">
+            My name is <b>Ernesto Pozzo</b>, I'm currently a freelance web
+            developer and <b>I can build your new websites.</b>
+          </div>
         </div>
-
-        <div class="greet">
-          <p class="text">Hello, my name is:</p>
-          <p class="name">Ernesto Pozzo</p>
-          <p class="text">I'm a Web Developer</p>
-        </div>
-        <div id="buttonContainer">
-          <button class="buttons" id="socialMedia">Social Media</button>
-          <button class="buttons" id="cV">Cv</button>
-        </div>
+        <img id="face" src="foto/MY FACE.png" alt="Picture of my face" />
       </div>
-    </main>
-    <!-- <div class="container">
-      <div id="elementOne" class="box">
-        <div id="text1" class="text">Hello!</div>
-        <div id="text2" class="text">
-          My name is Ernesto Pozzo, I'm currently a freelance web developer and
-          I can build your new websites.
-        </div>
-      </div>
+      <br /><br /><br />
       <div id="elementTwo" class="box">
-        <div id="text3" class="text">Technologies I use:</div>
+        <div id="text4" class="text">Technologies I use:</div>
       </div>
-      <div id="elementThree" class="box">
-        <br />
-        <div id="text3" class="text">Social Media</div>
-        <br />
-        <br />
-        <div id="text3" class="text">CV</div>
+      <div class="container" id="containerTwo">
+        <div id="elementFour" class="box">
+          <i title="HTML" id="iconHtml" class="fa-brands fa-html5"></i>
+          <i title="CSS" id="iconCss" class="fa-brands fa-css3-alt"></i>
+          <i title="JS(JavaScript)" id="iconJs" class="fa-brands fa-js"></i>
+          <i title="Python" id="iconPython" class="fa-brands fa-python"></i>
+        </div>
+        <div id="elementThree" class="box">
+          <div id="text3" class="text">Social Media</div>
+          <div id="text3" class="text">CV</div>
+        </div>
       </div>
-      <div id="elementFour" class="box">
-        <i id="iconHtml" class="fa-brands fa-html5"></i>
-        <i id="iconCss" class="fa-brands fa-css3-alt"></i>
-        <i id="iconJs" class="fa-brands fa-js"></i><br />
-        <img id="iconKotlin" src="icons8-kotlin-100.png" alt="" />
-      </div>
-    </div> -->
+    </div>
   </body>
 </html>

@@ -1,0 +1,25 @@
+/*
+none = invisible
+block = visible
+or specific
+*/
+
+#containerOne{
+    /* display: flex; */
+}
+#elementOne{
+    /*FLEX*/
+    display:flex;
+}
+#elementTwo{
+    display:block;
+    z-index: 1;
+}
+#elementThree{
+    /* flex = visible and layout */
+    display:flex;
+}
+#elementFour{
+    /* flex = visible and layout */
+    display:flex;
+}
