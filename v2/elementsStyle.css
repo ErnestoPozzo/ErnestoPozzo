@@ -5,7 +5,11 @@
   margin: 0;
   padding: 0;
 }
-
+:root{
+  --icon-size:scale(7,7);
+  --element-width:40rem;
+  --element-height:11rem;
+}
 body {
   background-color: #e3dccc;
 }
@@ -27,20 +31,20 @@ body {
   font-family: Helvetica;
 }
 .fa-html5 {
-  transform: scale(7, 7);
+  transform: var(--icon-size);
 }
 .fa-css3-alt {
-  transform: scale(7, 7);
+  transform: var(--icon-size);
 }
 .fa-js {
-  transform: scale(7, 7);
+  transform: var(--icon-size);
 }
 .fa-python{
-  transform: scale(7, 7);
+  transform: var(--icon-size);
 }
 #elementOne {
-  width: 40rem;
-  height: 11rem;
+  width: var(--element-width);
+  height: var(--element-height);
 }
 #elementTwo {
   width: 15rem;
@@ -52,8 +56,8 @@ body {
   height: 11rem;
 }
 #elementFour {
-  width: 40rem;
-  height: 11rem;
+  width: var(--element-width);
+  height: var(--element-height);
 }
 #text1 {
   font-size: 5rem;
