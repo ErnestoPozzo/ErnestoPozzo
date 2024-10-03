@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+*{
+    margin: 0;
+}
+:root{
+    --primary-clr: #131313;
+    --primary-sec:  #E3DCCC;
+}
+body{
+    font-family: "Sometype Mono", monospace;
+    font-size: 1rem;
+}
+.name__title,
+.name__subtitle{
+    color: var(--primary-sec);
+}
+.container-name{
+    margin: 0 auto;
+    width: min(90%,344px);
+}
+.container{
+    margin: 0 auto;
+    width: min(90%,1000px);
+}
+.name{
+    background-color: var(--primary-clr);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.work{
+    background-color: #E3DCCC;
+}
