@@ -33,11 +33,25 @@ body{
 }
 .name{
     background-color: var(--primary-clr);
-    height: 100vh;
+    height: 70dvh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .work{
     background-color: #E3DCCC;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.work h4{
+    padding-top: 1em;
+}
+.project__link{
+    display: inline-block;
+    color: var(--primary-clr);
+    text-decoration: none;
+    margin-top: 0.5em;
+}
+.project__link:hover{
+    opacity: 0.5;
 }
