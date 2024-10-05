@@ -1,6 +1,5 @@
 /* styling:
     --- footer
-    --- pseudo a 
 */
 
 *,
@@ -51,7 +50,23 @@ body{
     color: var(--primary-clr);
     text-decoration: none;
     margin-top: 0.5em;
+    position: relative;
+    padding-bottom: .1em;
+}
+.project__link::after{
+    content: '';
+    height: 1px;
+    width: 100%;
+    background:var(--primary-clr);
+    border-radius: 100px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition:100ms;
+}
+.project__link:hover::after{
+    width: 0;
 }
 .project__link:hover{
-    opacity: 0.5;
+    font-weight: bold;
 }
