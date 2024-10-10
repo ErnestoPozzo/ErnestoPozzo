@@ -11,6 +11,10 @@
     --primary-sec:  #E3DCCC;
     --secondary : #9E0031;
 }
+@keyframes fade-in{
+    0%{opacity: 0};
+    100%{opacity: 1;}
+}
 a{
     text-decoration: none;
     color: var(--primary-clr);
@@ -22,6 +26,8 @@ body{
 .name__title,
 .name__subtitle{
     color: var(--primary-sec);
+    animation-name:fade-in;
+    animation-duration: 5s;
 }
 .container-name{
     margin: 0 auto;
@@ -88,10 +94,13 @@ body{
         display: flex;
         gap: 50px;
     }
+    .project__title{
+        text-align: center;
+    }
     .project__one{
-        width: 45%;
+        width: 40%;
     }
     .project__two{
-        width: 45%;
+        width: 40%;
     }
 }
