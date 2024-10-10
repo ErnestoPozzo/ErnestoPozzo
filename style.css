@@ -52,6 +52,18 @@ body{
 .work h4{
     padding-top: 1em;
 }
+.project__title{
+    animation-name:fade-in;
+    animation-duration: 3s;
+}
+.project__one{
+    animation-name:fade-in;
+    animation-duration: 3s;
+}
+.project__two{
+    animation-name:fade-in;
+    animation-duration: 3s;
+}
 .project__link{
     display: inline-block;
     margin-top: 0.5em;
