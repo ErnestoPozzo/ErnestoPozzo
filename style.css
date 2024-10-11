@@ -10,6 +10,7 @@
     --primary-clr: #131313;
     --primary-sec:  #E3DCCC;
     --secondary : #9E0031;
+    --projects-row-width: 50%;
 }
 @keyframes fade-in{
     0%{opacity: 0};
@@ -52,17 +53,12 @@ body{
 .work h4{
     padding-top: 1em;
 }
+.animation{
+    animation-name:fade-in;
+    animation-duration: 3s;
+}
 .project__title{
-    animation-name:fade-in;
-    animation-duration: 3s;
-}
-.project__one{
-    animation-name:fade-in;
-    animation-duration: 3s;
-}
-.project__two{
-    animation-name:fade-in;
-    animation-duration: 3s;
+    text-align: center;
 }
 .project__link{
     display: inline-block;
@@ -101,18 +97,21 @@ body{
 }
 
 @media (min-width: 700px){
-    .projects{
+    .projects__row{
         justify-content: space-between;
         display: flex;
         gap: 50px;
     }
-    .project__title{
-        text-align: center;
-    }
     .project__one{
-        width: 40%;
+        width: var(--projects-row-width);
     }
     .project__two{
-        width: 40%;
+        width: var(--projects-row-width);
+    }
+    .project__three{
+        width: var(--projects-row-width);
+    }
+    .project__four{
+        width: var(--projects-row-width);
     }
 }
