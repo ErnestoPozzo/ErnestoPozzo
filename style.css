@@ -24,11 +24,13 @@ body{
     font-family: "Sometype Mono", monospace;
     font-size: 1rem;
 }
+.animation{
+    animation-name:fade-in;
+    animation-duration: 5s;
+}
 .name__title,
 .name__subtitle{
     color: var(--primary-sec);
-    animation-name:fade-in;
-    animation-duration: 5s;
 }
 .container-name{
     margin: 0 auto;
@@ -52,10 +54,6 @@ body{
 }
 .work h4{
     padding-top: 1em;
-}
-.animation{
-    animation-name:fade-in;
-    animation-duration: 3s;
 }
 .project__title{
     text-align: center;
@@ -85,6 +83,7 @@ body{
 }
 .footer{
     background-color: var(--secondary);
+    color: var(--primary-sec);
     padding-top: 1.5em;
     padding-bottom: 1.5em;
 }
@@ -95,7 +94,15 @@ body{
     align-items: center;
     height:80px;
 }
-
+.footer__title{
+    text-align: center;
+    font-size: 2.2rem;
+}
+.fa-linkedin-in,
+.fa-github,
+.fa-envelope{
+    color: var(--primary-sec);
+}
 @media (min-width: 700px){
     .projects__row{
         justify-content: space-between;
