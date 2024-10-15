@@ -24,14 +24,6 @@ body{
     font-family: "Sometype Mono", monospace;
     font-size: 1rem;
 }
-.animation{
-    animation-name:fade-in;
-    animation-duration: 5s;
-}
-.name__title,
-.name__subtitle{
-    color: var(--primary-sec);
-}
 .container-name{
     margin: 0 auto;
     width: min(90%,344px);
@@ -46,6 +38,38 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.animation{
+    animation-name:fade-in;
+    animation-duration: 5s;
+}
+.name__title,
+.name__subtitle{
+    color: var(--primary-sec);
+}
+.name__link{
+    color: var(--primary-sec);
+    display: inline-block;
+    margin-top: 0.7em;
+    position: relative;
+    padding-bottom: .1em;
+}
+.name__link:hover{
+    font-weight: bold;
+}
+.name__link::after{
+    content: '';
+    height: 1px;
+    width: 100%;
+    background:var(--primary-sec);
+    border-radius: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition:100ms;
+}
+.name__link:hover::after{
+    width: 0;
 }
 .work{
     background-color: #E3DCCC;
@@ -94,9 +118,9 @@ body{
     align-items: center;
     height:80px;
 }
-.footer__title{
+.footer h2{
     text-align: center;
-    font-size: 2.2rem;
+    font-size: 1.5rem;
 }
 .fa-linkedin-in,
 .fa-github,
