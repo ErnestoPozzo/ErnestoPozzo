@@ -115,6 +115,9 @@ body {
   padding-top: var(--paddingTopBottom);
   padding-bottom: var(--paddingTopBottom);
 }
+.about__me__title{
+  text-align: center;
+}
 .about__me h4{
     padding-top: var(--textPadding);
 }
@@ -146,6 +149,11 @@ body {
     display: flex;
     gap: 50px;
   }
+  .about__me__flex{
+    justify-content: space-between;
+    display: flex;
+    gap: 50px;
+  } 
   .project__one {
     width: var(--projects-row-width);
   }
