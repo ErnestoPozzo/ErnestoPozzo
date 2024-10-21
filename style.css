@@ -146,6 +146,11 @@ body {
     display: flex;
     gap: 50px;
   }
+  .about__me__flex{
+    justify-content: space-between;
+    display: flex;
+    gap: 50px;
+  } 
   .project__one {
     width: var(--projects-row-width);
   }
