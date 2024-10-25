@@ -112,6 +112,7 @@ body {
   font-weight: bold;
 }
 .about__me {
+  background-color: var(--primary-sec);
   padding-top: var(--paddingTopBottom);
   padding-bottom: var(--paddingTopBottom);
 }
